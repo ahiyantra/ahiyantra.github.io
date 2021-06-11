@@ -1,14 +1,18 @@
 * {
   text-align: center;
-  background-color: black;
   color: white;
   font-family: 'Mountains of Christmas', cursive;
 }
 
+body {
+  background-image: url('temporary.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
   text-align: left;
-  background-color: Gold;
-  color: Indigo;
+  color: white;
 }
 
 .main {
