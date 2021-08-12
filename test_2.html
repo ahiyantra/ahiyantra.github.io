@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script> -->
+  </head>
+  <body>
+    <a-scene>
+    
+      <!-- <a-entity environment="preset: arches"></a-entity> -->
+    
+      <!-- WELCOME! いらっしゃいませ！ -->
+
+      <a-text
+        value="Hello World"
+        color="orange"
+        negate="false"
+        align="center"
+        position="0 8 -10"
+        scale="5.5 5.5 5.5"
+        animation="property: object3D.position.y;
+                                 to: 8; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="नमस्ते दुनिया"
+        font="./fonts/cstm-msdf.json"
+        font-image="./fonts/cstm-msdf.png"
+        color="#33C3F0"
+        negate="false"
+        scale="4 4 2"
+        position="0 6 -8">
+      </a-text>
+
+      <a-text
+        value="你好世界"
+        font="./fonts/custom-msdf.json"
+        font-image="./fonts/custom-msdf.png"
+        color="#33C3F0"
+        negate="false"
+        scale="4 4 2"
+        position="0 4 -6">
+      </a-text>
+
+      <a-text
+        value="こんにちは世界"
+        font="./fonts/noto-sans-cjk-jp-msdf.json"
+        font-image="./fonts/noto-sans-cjk-jp-msdf.png"
+        color="#33C3F0"
+        negate="false"
+        scale="4 4 2"
+        position="0 2 -4">
+      </a-text>
+    
+    </a-scene>
+  </body>
+</html>
