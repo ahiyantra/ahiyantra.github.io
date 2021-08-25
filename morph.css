@@ -18,3 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 .main {
   text-align: center;
 }
+
+a, em, strong {
+  color: black;
+}
