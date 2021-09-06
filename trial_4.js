@@ -1,4 +1,2 @@
 // ZavaSkript
-
-console.log("welcome");
-console.log("HELLO WORLD");
+console.log("ZavaSkript");
