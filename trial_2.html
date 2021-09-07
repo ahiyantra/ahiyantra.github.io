@@ -22,12 +22,30 @@
       <a-assets>
         <!-- Asset management system -->
 
-        <a-audio id="bgm" src="./snds/NASA-FILTERED_HIGHLIGHTS-Sol16RoverDriveHighlights.wav">
+        <a-asset-item 
+          id="mshrm" 
+          src="./ssts/tmpry.gltf">
+        </a-asset-item> <!-- This work is based on "Mushroom (Game Ready / 2K PBR)" (https://sketchfab.com/3d-models/mushroom-game-ready-2k-pbr-0364f9ddc0834ddaa95e0ad9e0b25899) by Meerschaum Digital (https://sketchfab.com/meerschaumdigital) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) -->
+
+        <a-audio 
+          id="bgm" 
+          src="./snds/NASA-FILTERED_HIGHLIGHTS-Sol16RoverDriveHighlights.wav">
         </a-audio> <!-- https://www.nasa.gov/specials/sounds/FILTERED%20HIGHLIGHTS%20-%20Sol16RoverDriveHighlights.wav -->
           
       </a-assets>
     
       <a-entity environment="preset: arches"></a-entity>
+
+      <a-entity 
+        gltf-model="#mshrm" 
+        position="-1 10 -11" 
+        scale="5.5 5.5 5.5"
+        animation="property: object3D.position.y;
+                                 to: 1; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-entity>
 
       <a-text
         value="HELLO WORLD!"
@@ -92,6 +110,7 @@
       </a-text>
 
       <a-sound src="#bgm" autoplay="true">
+
       </a-sound>
 
     </a-scene>
