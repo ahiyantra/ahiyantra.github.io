@@ -5,14 +5,14 @@
 }
 
 body {
-  background-image: url('../mgs/temporary.jpg');
+  background-image: url('../mgs/tmpry-1.jpg');
   background-position: center;
   background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-align: left;
-  color: white;
+  /* color: white; */
 }
 
 .main {
@@ -21,4 +21,19 @@ h1, h2, h3, h4, h5, h6 {
 
 a, em, strong {
   color: black;
+}
+
+img {
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#uq {
+  font-family: "Courier";
+  font-weight: bold;
+/*
+  font-family: "Arial";
+  font-variant: small-caps;
+*/
 }
