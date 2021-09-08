@@ -1,2 +1,0 @@
-// ZavaSkript
-console.log("ZavaSkript");
