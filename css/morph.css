@@ -1,6 +1,5 @@
 * {
   text-align: center;
-  color: white;
 }
 
 body {
@@ -9,24 +8,14 @@ body {
   background-size: cover;
 }
 
-h1, h2, h4, h5, h6 {
+h1, h2 {
   font-family: 'Mountains of Christmas', cursive;
-/*
-  text-align: left;
   color: white;
-*/
 }
 
 h3 {
   font-family: "Arial";
   font-variant: small-caps;
-}
-
-.main {
-  text-align: center;
-}
-
-a, em, strong {
   color: black;
 }
 
@@ -34,13 +23,4 @@ img {
   height: 150px;
   margin: 0 auto;
   border-radius: 50%;
-}
-
-#uq {
-  font-family: "Courier";
-  font-weight: bold;
-/*
-  font-family: "Arial";
-  font-variant: small-caps;
-*/
 }
