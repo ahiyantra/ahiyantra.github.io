@@ -28,9 +28,30 @@
       </a-assets>
     
       <a-entity environment="preset: arches"></a-entity>
+<!--
+      <a-entity gltf-model="url(./ssts/gltf/source/Mushroom.gltf)" position="0 8 -8" scale="1 1 1"></a-entity>
+      <a-entity obj-model="url(./ssts/obj/source/Mushroom.gltf)" position="0 4 -4" scale="1 1 1"></a-entity>
+-->
+      <a-gltf-model src="./ssts/gltf/source/Mushroom.gltf" position="0 8 -8" scale="1 1 1"></a-gltf-model>
+      <a-obj-model src="./ssts/obj/source/Mushroom.obj" position="0 4 -4" scale="1 1 1"></a-obj-model>
 
-      <a-entity gltf-model="url(./ssts/gltf/source/Mushroom.gltf)" position="0 -2 -2" scale="1 1 1"></a-entity>
-
+      <a-text
+        value="GLTF"
+        color="orange"
+        negate="false"
+        align="center"
+        position="0 8 -8"
+        scale="2 2 2">
+      </a-text>
+      <a-text
+        value="OBJ"
+        color="orange"
+        negate="false"
+        align="center"
+        position="0 4 -4"
+        scale="2 2 2">
+      </a-text>
+<!--
       <a-text
         value="WELCOME!"
         color="orange"
@@ -92,7 +113,7 @@
                                  dur: 1000; 
                                  loop: true">
       </a-text>
-
+-->
       <a-sound src="#bgm" autoplay="true">
       </a-sound>
 
