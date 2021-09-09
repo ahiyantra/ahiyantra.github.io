@@ -1,7 +1,6 @@
 * {
   text-align: center;
   color: white;
-  font-family: 'Mountains of Christmas', cursive;
 }
 
 body {
@@ -10,9 +9,17 @@ body {
   background-size: cover;
 }
 
-h3, h4, h5, h6 { /* h1, h2 */
+h1, h2, h4, h5, h6 {
+  font-family: 'Mountains of Christmas', cursive;
+/*
   text-align: left;
-  /* color: white; */
+  color: white;
+*/
+}
+
+h3 {
+  font-family: "Arial";
+  font-variant: small-caps;
 }
 
 .main {
