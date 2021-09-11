@@ -21,26 +21,56 @@
 
       <a-assets>
         <!-- Asset management system -->
+<!--
+        <a-asset-item 
+          id="mshrm-gltf" 
+          src="./ssts/gltf/source/Mushroom.gltf">
+        </a-asset-item>
 
+        <a-asset-item 
+          id="mshrm-obj" 
+          src="./ssts/obj/source/Mushroom.obj">
+        </a-asset-item>
+-->
         <a-audio id="bgm" src="./snds/tmpry-0.wav">
         </a-audio> <!-- https://www.nasa.gov/specials/sounds/FILTERED%20HIGHLIGHTS%20-%20Sol16RoverDriveHighlights.wav -->
           
       </a-assets>
     
       <a-entity environment="preset: arches"></a-entity>
+<!--
+      <a-entity 
+        gltf-model="#mshrm-gltf" 
+        position="0 10 -8" 
+        scale="1 1 1"
+        animation="property: object3D.position.z;
+                                 to: -12; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-entity>
 
-
+      <a-entity 
+        gltf-model="#mshrm-obj" 
+        position="0 10 -11" 
+        scale="1 1 1"
+        animation="property: object3D.position.z;
+                                 to: -9; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+-->
       <a-gltf-model src="./ssts/gltf/source/Mushroom.gltf" position="-2 4 -4" scale="1 1 1"></a-gltf-model>
-      <!--  not loading -->
+      <!--  not working -->
 
       <a-obj-model src="./ssts/obj/source/Mushroom.obj" position="-4 8 -8" scale="1 1 1"></a-obj-model>
-      <!-- loading -->
+      <!-- working -->
 
       <a-entity gltf-model="url(./ssts/gltf/source/Mushroom.gltf)" position="2 4 -4" scale="1 1 1"></a-entity>
-      <!-- not loading -->
+      <!-- not working -->
 
       <a-entity obj-model="obj: url(./ssts/obj/source/Mushroom.obj)" position="4 8 -8" scale="1 1 1"></a-entity>
-      <!-- ??????? -->
+      <!-- working -->
 
       <a-text
         value="GLTF"

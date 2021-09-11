@@ -19,8 +19,34 @@ h3 {
   color: black;
 }
 
-img {
+.image-container {
+  overflow: hidden;
+  max-width: 100%;
+
+}
+
+.image-container img {
   height: 150px;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 432px) { /* experimenting */
+
+}
+
+@media only screen and (max-width: 768px) { /* most common desktop */
+
+}
+
+@media only screen and (max-width: 1080px) { /* almost most common desktop */
+
+}
+
+@media only screen and (max-width: 640px) { /* mobile */
+
+}
+
+@media only screen and (max-width: 1024px) { /* tablet */
+
 }
