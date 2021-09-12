@@ -1,0 +1,60 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url('../mgs/tmpry-1.jpg');
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
+
+h1, h2 {
+  font-family: 'Mountains of Christmas', cursive;
+  color: white;
+}
+
+h3 {
+  font-family: "Arial";
+  font-variant: small-caps;
+  color: black;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+
+button:hover {
+  background-color: lightsteelblue;
+}
+
+@media only screen and (max-width: 432px) { /* experimenting */
+  body {
+    background-size: auto; /* contain cover */
+}
+}
+
+@media only screen and (max-width: 768px) { /* most common desktop */
+  body {
+    background-size: auto; /* cover contain */
+}
+
+@media only screen and (max-width: 1080px) { /* almost most common desktop */
+
+}
+
+@media only screen and (max-width: 640px) { /* mobile */
+
+}
+
+@media only screen and (max-width: 1024px) { /* tablet */
+
+}

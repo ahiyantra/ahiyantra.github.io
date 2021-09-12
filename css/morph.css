@@ -2,18 +2,31 @@
   text-align: center;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-image: url('../mgs/tmpry-1.jpg');
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: center;
 }
 
-h1, h2 {
+.textual {
   font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.5rem;
+  line-height: 0;
   color: white;
+  align-items: center;
+  padding: 1rem;
 }
 
-h3 {
+.content {
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
   font-family: "Arial";
   font-variant: small-caps;
   color: black;
@@ -31,27 +44,38 @@ h3 {
   border-radius: 50%;
 }
 
-
-button:hover {
-  background-color: lightsteelblue;
+.button {
+  display: block;
+  max-width: 25%;
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+  margin: 0 auto;
+  padding: 1.25rem 3.25rem;
+  border: solid 1px #979797;
+  border-radius: 8px;
 }
 
-@media only screen and (max-width: 432px) { /* experimenting */
+.button:hover {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 432px) { /* almost most common mobile */
   body {
-    background-size: auto; /* contain cover */
+    background-size: cover; /* contain auto */
 }
 }
 
 @media only screen and (max-width: 768px) { /* most common desktop */
   body {
-    background-size: auto; /* cover contain */
+    background-size: cover; /* auto contain */
 }
 
 @media only screen and (max-width: 1080px) { /* almost most common desktop */
 
 }
 
-@media only screen and (max-width: 640px) { /* mobile */
+@media only screen and (max-width: 640px) { /* most common mobile */
 
 }
 
