@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LEWEM77TF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1LEWEM77TF');
+    </script>
+
+  </head>
+  <body>
+    <a-scene stats>
+
+      <a-assets>
+        <!-- Asset management system -->
+
+        <a-audio 
+          id="bgm" 
+          src="./snds/tmpry-0.wav">
+        </a-audio> <!-- https://www.nasa.gov/specials/sounds/FILTERED%20HIGHLIGHTS%20-%20Sol16RoverDriveHighlights.wav -->
+          
+      </a-assets>
+    
+      <a-entity environment="preset: arches"></a-entity>
+
+      <a-text
+        value="HELLO WORLD!"
+        color="orange"
+        negate="false"
+        align="center"
+        position="0 8 -10"
+        scale="5.5 5.5 5.5"
+        animation="property: object3D.position.y;
+                                 to: 11; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="नमस्ते दुिनया।"
+        font="./fnts/cstm-0-msdf.json"
+        font-image="./fnts/cstm-0-msdf.png"
+        color="yellow"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="0 6 -9"
+        animation="property: object3D.position.y;
+                                 to: 9; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="你好世界！"
+        font="./fnts/cstm-1-msdf.json"
+        font-image="./fnts/cstm-1-msdf.png"
+        color="purple"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="-1 4 -8"
+        animation="property: object3D.position.x;
+                                 to: 1; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="こんにちは世界！"
+        font="./fnts/noto-sans-cjk-jp-msdf.json"
+        font-image="./fnts/noto-sans-cjk-jp-msdf.png"
+        color="#33C3F0"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="-1 2 -7"
+        animation="property: object3D.position.x;
+                                 to: 1; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-sound src="#bgm" autoplay="true">
+
+      </a-sound>
+
+      <a-text
+        value="WELCOME!"
+        color="orange"
+        negate="false"
+        align="center"
+        position="0 10 -20"
+        scale="5.5 5.5 5.5"
+        animation="property: object3D.position.y;
+                                 to: 12; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="स्वागतम्।"
+        font="./fnts/cstm-0-msdf.json"
+        font-image="./fnts/cstm-0-msdf.png"
+        color="yellow"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="0 8 -18"
+        animation="property: object3D.position.y;
+                                 to: 10; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="欢迎，歡迎！"
+        font="./fnts/cstm-1-msdf.json"
+        font-image="./fnts/cstm-1-msdf.png"
+        color="purple"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="-1 6 -16"
+        animation="property: object3D.position.x;
+                                 to: 1; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+      <a-text
+        value="いらっしゃいませ！"
+        font="./fnts/noto-sans-cjk-jp-msdf.json"
+        font-image="./fnts/noto-sans-cjk-jp-msdf.png"
+        color="#33C3F0"
+        negate="false"
+        align="center"
+        scale="5.5 5.5 5.5"
+        position="3 4 -14"
+        animation="property: object3D.position.x;
+                                 to: -3; 
+                                 dir: alternate; 
+                                 dur: 1000; 
+                                 loop: true">
+      </a-text>
+
+    </a-scene>
+  </body>
+</html>
