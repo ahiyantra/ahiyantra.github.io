@@ -7,11 +7,9 @@ html {
 }
 
 body {
-  /*
   background-image: url('../mgs/tmpry-1.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
-  */
 }
 
 .textual {
@@ -62,25 +60,65 @@ a {
   background-color: lightgreen;
 }
 
-@media only screen and (max-width: 432px) { /* almost most common mobile */
+.unbutton {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.unbutton:hover {
+  background-color: lightgreen;
+}
+
+.so-me-a {
+  padding: .1875rem .5rem;
+  /* background-color: #9dc20b; */
+  line-height: 1.6;
+  color: white;
+}
+
+.so-me-a .unbutton {
+  padding: .1875rem .5rem;
+  /* background-color: #9dc20b; */
+  line-height: 1.6;
+  color: white;
+}
+
+.so-me-a li {
+  list-style-type: none;
+  padding: 0rem 3.5rem;
+}
+
+.so-me-a ul {
+  display: inline-flex;
+}
+
+.so-me-a a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+@media only screen and (max-width: 432px) { /* almost most common mobile size */
   body {
     background-size: cover; /* contain auto */
 }
 }
 
-@media only screen and (max-width: 768px) { /* most common desktop */
+@media only screen and (max-width: 768px) { /* most common desktop size */
   body {
     background-size: cover; /* auto contain */
 }
 
-@media only screen and (max-width: 1080px) { /* almost most common desktop */
+@media only screen and (max-width: 1080px) { /* almost most common desktop size */
 
 }
 
-@media only screen and (max-width: 640px) { /* most common mobile */
+@media only screen and (max-width: 640px) { /* most common mobile size */
 
 }
 
-@media only screen and (max-width: 1024px) { /* tablet */
+@media only screen and (max-width: 1024px) { /* tablet size */
 
 }
