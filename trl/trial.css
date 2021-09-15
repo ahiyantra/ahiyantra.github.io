@@ -48,7 +48,7 @@ a {
   display: block;
   max-width: 25%;
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color: #4a4a4a; /* #9dc20b */
   color: white;
   margin: 0 auto;
   padding: 1.25rem 3.25rem;
@@ -62,24 +62,26 @@ a {
 
 .unbutton {
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color: #4a4a4a; /* #9dc20b */
   color: white;
+  margin: 0 auto;
+  padding: 1.25rem 3.25rem;
+  border: solid 1px #979797;
+  border-radius: 8px;
 }
 
 .unbutton:hover {
-  background-color: lightgreen;
+  background-color: lightsteelblue;
 }
 
 .so-me-a {
   padding: .1875rem .5rem;
-  /* background-color: #9dc20b; */
   line-height: 1.6;
   color: white;
 }
 
 .so-me-a .unbutton {
   padding: .1875rem .5rem;
-  /* background-color: #9dc20b; */
   line-height: 1.6;
   color: white;
 }

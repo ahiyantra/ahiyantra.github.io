@@ -8,7 +8,7 @@ html {
 
 body {
   background-image: url('../mgs/tmpry-1.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
 }
 
@@ -48,7 +48,7 @@ a {
   display: block;
   max-width: 25%;
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color: #4a4a4a; /* #9dc20b */
   color: white;
   margin: 0 auto;
   padding: 1.25rem 3.25rem;
@@ -59,26 +59,28 @@ a {
 .button:hover {
   background-color: lightgreen;
 }
-
-@media only screen and (max-width: 432px) { /* almost most common mobile */
+/*
+xyz
+*/
+@media only screen and (max-width: 432px) { /* almost most common mobile size */
   body {
     background-size: cover; /* contain auto */
 }
 }
 
-@media only screen and (max-width: 768px) { /* most common desktop */
+@media only screen and (max-width: 768px) { /* most common desktop size */
   body {
     background-size: cover; /* auto contain */
 }
 
-@media only screen and (max-width: 1080px) { /* almost most common desktop */
+@media only screen and (max-width: 1080px) { /* almost most common desktop size */
 
 }
 
-@media only screen and (max-width: 640px) { /* most common mobile */
+@media only screen and (max-width: 640px) { /* most common mobile size */
 
 }
 
-@media only screen and (max-width: 1024px) { /* tablet */
+@media only screen and (max-width: 1024px) { /* tablet size */
 
 }
