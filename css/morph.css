@@ -59,9 +59,49 @@ a {
 .button:hover {
   background-color: lightgreen;
 }
-/*
-xyz
-*/
+
+.unbutton {
+  border-radius: 4px;
+  background-color: #4a4a4a; /* #9dc20b */
+  color: white;
+  margin: 0 auto;
+  padding: 1.25rem 3.25rem;
+  border: solid 1px #979797;
+  border-radius: 8px;
+}
+
+.unbutton:hover {
+  background-color: lightsteelblue;
+}
+
+.so-me-a {
+  padding: .1875rem .5rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.so-me-a .unbutton {
+  padding: .1875rem .5rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.so-me-a li {
+  list-style-type: none;
+  padding: 0rem 3.5rem;
+}
+
+.so-me-a ul {
+  display: inline-flex;
+}
+
+.so-me-a a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
 @media only screen and (max-width: 432px) { /* almost most common mobile size */
   body {
     background-size: cover; /* contain auto */
