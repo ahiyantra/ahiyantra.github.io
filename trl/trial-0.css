@@ -318,7 +318,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 600px) { /* max-width: 760px */
+@media only screen and (max-width: 432px) { /* max-width: 600px */ /* max-width: 760px */
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -432,7 +432,7 @@ header .mobile {
     padding: 3rem 1.5rem;
   }
 }
-@media only screen and (max-width: 600px) { /* ??? */ /* an addition */
+@media only screen and (max-width: 432px) { /* max-width: 600px */ /* max-width: 760px */ /* ??? */ /* an addition */
   #quotes-section .content {
     flex-flow: column;
 
