@@ -100,6 +100,18 @@
       <a-sound src="#bgm" autoplay="true">
       </a-sound>
 
+    <a-box 
+       position="0 5 -5" 
+       rotation="0 45 0" 
+       color="#4CC3D9"
+       event-set__enter="_event: mouseenter; color: #8FF7FF"
+       event-set__leave="_event: mouseleave; color: #4CC3D9">
+     </a-box>
+
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+
     </a-scene>
   </body>
 </html>
