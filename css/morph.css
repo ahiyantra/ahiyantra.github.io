@@ -16,7 +16,7 @@ body {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 1.5rem;
   line-height: 0;
-  color: white;
+  color: black; /* white */
   align-items: center;
   padding: 1rem;
 }
