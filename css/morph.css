@@ -14,7 +14,7 @@ body {
 .text-container {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 1.5rem;
-  line-height: 0;
+  line-height: 150%;
   color: black; /* white */
   display: flex;
   flex-direction: column;
@@ -96,13 +96,13 @@ a {
   justify-content: center;
   align-items: center;
   padding: .1875rem .5rem;
-  line-height: 1.6;
+  line-height: 150%;
   color: white;
 }
 
 .social-media-link-container .unbutton {
   padding: .1875rem .5rem;
-  line-height: 1.6;
+  line-height: 150%;
   color: white;
 }
 
@@ -117,7 +117,7 @@ a {
 
 .social-media-link-container a {
   vertical-align: bottom;
-  line-height: 1.6;
+  line-height: 150%;
   font-size: 1rem;
   color: #4a4a4a;
 }
