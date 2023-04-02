@@ -14,7 +14,7 @@ body {
 .text-container {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 1.5rem;
-  line-height: 150%;
+  line-height: 100%;
   color: black; /* white */
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 a {
@@ -95,20 +95,20 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: .1875rem .5rem;
-  line-height: 150%;
+  padding: 0rem 0rem;
+  line-height: 100%;
   color: white;
 }
 
 .social-media-link-container .unbutton {
-  padding: .1875rem .5rem;
-  line-height: 150%;
+  padding: .5rem .6rem;
+  line-height: 100%;
   color: white;
 }
 
 .social-media-link-container li {
   list-style-type: none;
-  padding: 0rem 3.5rem;
+  padding: 0rem 0rem;
 }
 
 .social-media-link-container ul {
@@ -117,7 +117,7 @@ a {
 
 .social-media-link-container a {
   vertical-align: bottom;
-  line-height: 150%;
+  line-height: 100%;
   font-size: 1rem;
   color: #4a4a4a;
 }
