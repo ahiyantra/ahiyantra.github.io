@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Button List Example</title>
+    <style>
+      /* Center the buttons vertically */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        height: 100%;
+      }
+      
+      /* Style the button list */
+      .button-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        list-style: none;
+      }
+      
+      .button-list button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+      }
+      
+      /* Style the small button list */
+      .small-button-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+      }
+      
+      .small-button-list button {
+        padding: 5px;
+        margin: 5px;
+        font-size: 12px;
+      }
+      
+      /* Media queries for responsiveness */
+      @media (min-width: 768px) {
+        .button-list {
+          /*flex-direction: row;*/
+          align-items: center;
+        }
+        
+        .button-list button {
+          margin: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="button-list">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+      </div>
+      
+      <div class="small-button-list">
+        <button>Button 4</button>
+        <button>Button 5</button>
+        <button>Button 6</button>
+      </div>
+    </div>
+  </body>
+</html>

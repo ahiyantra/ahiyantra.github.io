@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button List</title>
+  <style>
+    body {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #f1f1f1;
+      display: flex; /* Added */
+      justify-content: center; /* Added */
+      align-items: center; /* Added */
+      height: 100vh; /* Added */
+    }
+
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .button-list li {
+      margin: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 1rem;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 768px) {
+      .button-list li {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <ul class="button-list">
+    <li><button class="button">Button 1</button></li>
+    <li><button class="button">Button 2</button></li>
+    <li><button class="button">Button 3</button></li>
+    <li><button class="button">Button 4</button></li>
+    <li><button class="button">Button 5</button></li>
+    <li><button class="button">Button 6</button></li>
+  </ul>
+</body>
+</html>
