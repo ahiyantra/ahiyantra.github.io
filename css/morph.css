@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  margin: 0rem 0rem;
 }
 
 html {
@@ -11,17 +12,34 @@ body {
   background-position: center;
 }
 
+p {
+  margin: 0.5rem 0rem;
+  width: 100%;
+}
+
+a {
+  font-family: "Arial";
+  font-variant: small-caps;
+  color: black;
+}
+
 .text-container {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 1.5rem;
   line-height: 100%;
   color: black; /* white */
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  width: 75%;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 2px;
+}
+
+.all-text {
+  padding: 0.5rem 0.5rem;
 }
 
 .project-link-container {
@@ -31,12 +49,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0rem;
-}
-
-a {
-  font-family: "Arial";
-  font-variant: small-caps;
-  color: black;
 }
 
 .profile-image-container {
@@ -54,19 +66,20 @@ a {
   height: 150px;
   margin: 0 auto;
   border-radius: 50%;
+  padding: 0.5rem 0.5rem;
 }
 
 .button {
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   inline-size: min-content;
   display: block;
-  border-radius: 4px;
   background-color: #4a4a4a; /* #9dc20b */
   color: white;
   margin: 0 auto;
-  padding: 1.25rem 3.25rem;
+  padding: 1.25rem 2.25rem;
   border: solid 1px #979797;
   border-radius: 8px;
+  width: 50%;
 }
 
 .button:hover {
@@ -74,10 +87,9 @@ a {
 }
 
 .unbutton {
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   inline-size: min-content;
   display: block;
-  border-radius: 4px;
   background-color: #4a4a4a; /* #9dc20b */
   color: white;
   margin: 0 auto;
@@ -108,11 +120,12 @@ a {
 
 .social-media-link-container li {
   list-style-type: none;
-  padding: 0rem 0rem;
+  padding: 0.5rem 0rem;
 }
 
 .social-media-link-container ul {
   display: inline-flex;
+  padding: 0rem 0.25rem;
 }
 
 .social-media-link-container a {
