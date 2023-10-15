@@ -1,2 +1,3 @@
 # ahiyantra.github.io
-under construction
+
+basic static website for displaying my portfolio; made using html, css & javascript; always under construction
