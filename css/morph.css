@@ -110,6 +110,9 @@ a {
   padding: 0rem 0rem;
   line-height: 100%;
   color: white;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 2px;
 }
 
 .social-media-link-container .unbutton {
@@ -133,6 +136,21 @@ a {
   line-height: 100%;
   font-size: 1rem;
   color: #4a4a4a;
+}
+
+.license-container {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: black; /* white */
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 2px;
 }
 
 @media only screen and (max-width: 432px) { /* almost most common mobile size */
