@@ -1,11 +1,11 @@
 # ahiyantra.github.io
 
-basic static website for displaying my portfolio; made using html, css & javascript; always under construction
+A basic static website for displaying my portfolio. Made with html, css & javascript. Perpetually under construction.
 
 ---
 
-> [vercel deployment](https://ahiyantra.vercel.app/)
+> [Vercel Deployment](https://ahiyantra.vercel.app/)
 > |
-> [github pages deployment](https://ahiyantra.github.io/)
+> [Github Pages Deployment](https://ahiyantra.github.io/)
 
 ---
