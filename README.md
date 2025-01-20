@@ -4,8 +4,10 @@ A basic static website for displaying my portfolio. Made with html, css & javasc
 
 ---
 
-> [Vercel Deployment](https://ahiyantra.vercel.app/)
-> |
-> [Github Pages Deployment](https://ahiyantra.github.io/)
+|
+[Vercel Deployment](https://ahiyantra.vercel.app/)
+|
+[Github Pages Deployment](https://ahiyantra.github.io/)
+|
 
 ---
